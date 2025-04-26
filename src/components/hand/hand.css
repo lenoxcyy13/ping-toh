@@ -1,0 +1,23 @@
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    writing-mode: vertical-rl;
+}
+
+.tile:hover {
+    transform: scale(1.1);
+}
+
+.tile-row {
+    display: flex;
+}

@@ -1,0 +1,16 @@
+.ping-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d43838;
+    border: 1px solid #360505;
+    border-radius: 4px;
+    font-size: xx-large;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.ping-button:hover {
+    transform: scale(1.1);
+}
